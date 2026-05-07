@@ -26,10 +26,10 @@
         margin-bottom: 12px;
     }
 
-.navbar ul {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-}
+    .navbar ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 
 
     /* Banner related styles */
@@ -38,7 +38,7 @@
         max-width: 95%;
         height: auto;
         background-position: top center;
-        gap: 85px;
+        gap: 95px;
         flex-direction: column-reverse;
     }
 
@@ -53,8 +53,22 @@
 
     }
 
-    .banner-image {
+    .banner-image , .banner-image img{
         max-width: 100%;
+    }
+
+
+    /* Sponsors related styles */
+
+    .sponsor-container,
+    .sponsor-container img {
+        max-width: 100%;
+    }
+
+    .sponsor-container {
+        grid-template-columns: repeat(4, 1fr);
+        padding: 25px 28px;
+        row-gap: 20px;
     }
 
 
