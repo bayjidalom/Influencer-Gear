@@ -339,35 +339,9 @@ footer {
     border-radius: 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-/* RESPONSIVE FOR MOBILE DEVICE */
-
-@media screen and (max-width: 576px) {
-    nav {
-
-        padding-top: 50px;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .navbar,
-    .nav-menu {
-        flex-direction: column;
-    }
-
-    .logo {
-        font-size: 18px;
-    }
-
-
-
+.hide{
+    display: none !important;
 }
+
+
+
