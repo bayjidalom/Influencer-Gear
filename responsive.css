@@ -96,5 +96,26 @@
 
     /* Feature Section */
 
+    .feature-section {
+    margin-top: 55px;
+    max-width: 100%;
+}
+
+.feature-card-container {
+    max-width: 100%;
+    flex-direction: column-reverse;
+  
+    gap: 55px;
+}
+
+.feature-img img{
+    max-width: 100%;
+}
+
+
+.feature-content {
+    max-width: 95%;
+}
+
 
 }
