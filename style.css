@@ -339,9 +339,14 @@ footer {
     border-radius: 50%;
 }
 
-.hide{
+.hide {
     display: none !important;
 }
 
+.btn {
+    transition: transform 2s linear;
+}
 
-
+.btn:hover {
+    transform: scale(1.1);
+}

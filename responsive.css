@@ -11,7 +11,7 @@
 
     nav {
 
-        padding-top: 50px;
+        padding-top: 40px;
         justify-content: center;
         text-align: center;
     }
@@ -23,7 +23,13 @@
 
     .logo {
         font-size: 28px;
+        margin-bottom: 12px;
     }
+
+.navbar ul {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 
 
     /* Banner related styles */
@@ -32,7 +38,7 @@
         max-width: 95%;
         height: auto;
         background-position: top center;
-        gap: 75px;
+        gap: 85px;
         flex-direction: column-reverse;
     }
 
