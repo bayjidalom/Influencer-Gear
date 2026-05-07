@@ -53,7 +53,8 @@
 
     }
 
-    .banner-image , .banner-image img{
+    .banner-image,
+    .banner-image img {
         max-width: 100%;
     }
 
@@ -70,6 +71,22 @@
         padding: 25px 28px;
         row-gap: 20px;
     }
+
+
+    /* Card Section */
+
+    .card-container {
+        max-width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+
+    /* Feature Section */
 
 
 }
