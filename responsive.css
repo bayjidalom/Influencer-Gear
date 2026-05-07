@@ -4,6 +4,11 @@
         --heading: 42px;
     }
 
+    header {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     nav {
 
         padding-top: 50px;
@@ -17,9 +22,34 @@
     }
 
     .logo {
-        font-size: 24px;
+        font-size: 28px;
     }
 
+
+    /* Banner related styles */
+
+    .banner-container {
+        max-width: 95%;
+        height: auto;
+        background-position: top center;
+        gap: 75px;
+        flex-direction: column-reverse;
+    }
+
+
+    .banner-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .banner-content h3 {
+        font-size: 34px;
+
+    }
+
+    .banner-image {
+        max-width: 100%;
+    }
 
 
 }
