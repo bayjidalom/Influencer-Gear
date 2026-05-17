@@ -54,12 +54,23 @@ nav li a {
     font-size: 24px;
     font-weight: 800;
     color: #3A3A3A;
+
+    transition: color 0.2s linear;
+}
+
+.logo:hover {
+    color: rgba(10, 8, 38, 1);
+    color: #E02C6D;
 }
 
 nav a {
     font-size: 16px;
     font-weight: 600;
     color: #3A3A3A;
+}
+
+.hamburger {
+    display: none;
 }
 
 
@@ -344,7 +355,7 @@ footer {
 }
 
 .btn {
-    transition: transform 2s linear;
+    transition: transform 1s linear;
 }
 
 .btn:hover {
