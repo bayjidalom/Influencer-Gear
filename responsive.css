@@ -20,23 +20,19 @@
     .nav-menu {
         margin-top: 25px;
         margin-bottom: 12px;
-        /* flex-direction: column; */
         justify-content: space-between;
         padding: 10px 20px;
     }
 
     .logo {
-        font-size: 24px;
-        /* margin-bottom: 12px; */
+        font-size: 22px;
     }
 
     .navbar ul {
-        /* display: grid;
-        grid-template-columns: repeat(3, 1fr); */
         display: none;
     }
 
-    .hamburger {
+    .hamburger, .shopping-cart {
         display: block;
     }
 
@@ -99,9 +95,9 @@
 
     }
 
-    .card:hover {
+    /* .card:hover {
         transform: scale(1.1);
-    }
+    } */
 
 
     /* Feature Section */
